@@ -7,6 +7,7 @@ attestation.grapheneos.org
 grapheneos.org
 www.grapheneos.org
 time.grapheneos.org
+connectivitycheck.grapheneos.org
 66.70.190.239
 2607:5300:201:3100::3a97
 
