@@ -6,7 +6,6 @@ attestation.grapheneos.org
 
 grapheneos.org
 www.grapheneos.org
-time.grapheneos.org
 connectivitycheck.grapheneos.org
 66.70.190.239
 2607:5300:201:3100::3a97
@@ -16,3 +15,7 @@ seamlessupdate.app
 www.seamlessupdate.app
 144.217.82.101
 2607:5300:201:3100::49fe
+
+time.grapheneos.org
+167.114.145.173
+2607:5300:201:3100::2ddd
