@@ -19,3 +19,7 @@ www.seamlessupdate.app
 time.grapheneos.org
 167.114.145.173
 2607:5300:201:3100::2ddd
+
+mail.grapheneos.org
+51.161.8.12
+2607:5300:205:200::40f
