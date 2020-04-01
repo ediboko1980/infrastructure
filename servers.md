@@ -50,7 +50,7 @@ IPs:
 Ports:
 
 - 22 SSH - no passwords
-- 443 HTTPS - static
+- 443 HTTPS - no content, returns 204 response code for /
 
 # GrapheneOS mail server
 
