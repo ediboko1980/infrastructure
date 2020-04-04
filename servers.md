@@ -5,6 +5,7 @@ Domains:
 - grapheneos.org
 - www.grapheneos.org
 - connectivitycheck.grapheneos.org
+- mta-sts.grapheneos.org
 
 IPs:
 
@@ -24,6 +25,7 @@ Domains:
 - releases.grapheneos.org
 - seamlessupdate.app
 - www.seamlessupdate.app
+- mta-sts.seamlessupdate.app
 
 IPs:
 
@@ -77,6 +79,7 @@ Domains:
 - attestation.app
 - www.attestation.app
 - attestation.grapheneos.org
+- mta-sts.attestation.app
 
 IPs:
 
