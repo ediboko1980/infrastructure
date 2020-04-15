@@ -6,6 +6,7 @@ Domains:
 - www.grapheneos.org
 - connectivitycheck.grapheneos.org
 - mta-sts.grapheneos.org
+- mta-sts.mail.grapheneos.org
 
 IPs:
 
