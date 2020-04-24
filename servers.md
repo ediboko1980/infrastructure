@@ -69,9 +69,11 @@ IPs:
 Ports:
 
 - 22 SSH - no passwords
-- 25 SMTP
-- 465 SMTPS AUTH only
-- 587 SMTP AUTH only
+- 25 SMTP - DANE TLSA
+- 143 IMAP - TLS required, DANE TLSA
+- 465 SMTPS - AUTH only, DANE TLSA
+- 587 SMTP - AUTH only, DANE TLSA
+- 993 IMAPS - DANE TLSA
 
 # Attestation website and service
 
