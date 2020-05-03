@@ -93,4 +93,4 @@ Ports:
 
 - 22 SSH - no passwords
 - 80 HTTP - HTTPS redirect only
-- 443 HTTPS - static + attestation service
+- 443 HTTPS - static + reverse proxy to attestation service
