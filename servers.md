@@ -70,7 +70,6 @@ Ports:
 
 - 22 ssh - no passwords
 - 25 smtp - DANE TLSA
-- 143 imap - TLS required, DANE TLSA
 - 465 submissions - AUTH only, DANE TLSA
 - 993 imaps - DANE TLSA
 
