@@ -15,9 +15,9 @@ IPs:
 
 Ports:
 
-- 22 SSH - no passwords
-- 80 HTTP - HTTPS redirect only
-- 443 HTTPS - static
+- 22 ssh - no passwords
+- 80 http - HTTPS redirect only
+- 443 https - static
 
 # GrapheneOS release server
 
@@ -35,9 +35,9 @@ IPs:
 
 Ports:
 
-- 22 SSH - no passwords
-- 80 HTTP - HTTPS redirect only
-- 443 HTTPS - static
+- 22 ssh - no passwords
+- 80 http - HTTPS redirect only
+- 443 https - static
 
 # GrapheneOS time server
 
@@ -52,8 +52,8 @@ IPs:
 
 Ports:
 
-- 22 SSH - no passwords
-- 443 HTTPS - no content, returns 204 response code for /
+- 22 ssh - no passwords
+- 443 https - no content, returns 204 response code for /
 
 # GrapheneOS mail server
 
@@ -68,11 +68,11 @@ IPs:
 
 Ports:
 
-- 22 SSH - no passwords
-- 25 SMTP - DANE TLSA
-- 143 IMAP - TLS required, DANE TLSA
-- 465 SMTPS - AUTH only, DANE TLSA
-- 993 IMAPS - DANE TLSA
+- 22 ssh - no passwords
+- 25 smtp - DANE TLSA
+- 143 imap - TLS required, DANE TLSA
+- 465 submissions - AUTH only, DANE TLSA
+- 993 imaps - DANE TLSA
 
 # Attestation website and service
 
@@ -90,6 +90,6 @@ IPs:
 
 Ports:
 
-- 22 SSH - no passwords
-- 80 HTTP - HTTPS redirect only
-- 443 HTTPS - static + reverse proxy to attestation service
+- 22 ssh - no passwords
+- 80 http - HTTPS redirect only
+- 443 https - static + reverse proxy to attestation service
