@@ -4,7 +4,6 @@ Domains:
 
 - grapheneos.org
 - www.grapheneos.org
-- connectivitycheck.grapheneos.org
 - mta-sts.grapheneos.org
 - mta-sts.mail.grapheneos.org
 
@@ -54,6 +53,22 @@ Ports:
 
 - 22 ssh - no passwords
 - 443 https - no content, returns 204 response code for /
+
+# GrapheneOS connectivity check server
+
+Domains:
+
+- connectivitycheck.grapheneos.org
+
+IPs:
+
+- 51.79.54.68
+- 2607:5300:205:200:0:0:0:b44
+
+Ports:
+
+- 22 ssh - no passwords
+- 443 https - no content, returns 204 response code for /generate\_204
 
 # GrapheneOS mail server
 
