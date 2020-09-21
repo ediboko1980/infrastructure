@@ -1,5 +1,11 @@
 # GrapheneOS website
 
+- OVH VPS vps2020-value-1-2-40
+- 1 core
+- 2 GB memory
+- 40 GB storage
+- 250 Mbit/s bandwidth
+
 Domains:
 
 - grapheneos.org
@@ -19,6 +25,12 @@ Ports:
 - 443 https - static
 
 # GrapheneOS release server
+
+- OVH VPS vps2020-elite-8-8-160
+- 8 core
+- 8 GB memory
+- 160 GB storage
+- 2000 Mbit/s bandwidth
 
 Domains:
 
@@ -40,6 +52,12 @@ Ports:
 
 # GrapheneOS time server
 
+- OVH VPS 2018 SSD 1
+- 1 core
+- 2 GB memory
+- 20 GB storage
+- 100 Mbit/s bandwidth
+
 Domains:
 
 - time.grapheneos.org
@@ -56,6 +74,12 @@ Ports:
 
 # GrapheneOS connectivity check server
 
+- OVH VPS vps2020-starter-1-2-20
+- 1 core
+- 2 GB memory
+- 20 GB storage
+- 100 Mbit/s bandwidth
+
 Domains:
 
 - connectivitycheck.grapheneos.org
@@ -71,6 +95,12 @@ Ports:
 - 443 https - no content, returns 204 response code for /generate\_204
 
 # GrapheneOS mail server
+
+- OVH VPS 2018 SSD 1
+- 1 core
+- 2 GB memory
+- 20 GB storage
+- 100 Mbit/s bandwidth
 
 Domains:
 
@@ -89,6 +119,12 @@ Ports:
 - 993 imaps - DANE TLSA
 
 # Attestation website and service
+
+- OVH VPS 2018 SSD 1
+- 1 core
+- 2 GB memory
+- 20 GB storage
+- 100 Mbit/s bandwidth
 
 Domains:
 
