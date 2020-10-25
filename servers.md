@@ -6,6 +6,8 @@
 - 40 GB storage
 - 250 Mbit/s bandwidth
 
+[Issue tracker](https://github.com/GrapheneOS/grapheneos.org/issues)
+
 Domains:
 
 - grapheneos.org
@@ -32,6 +34,8 @@ Ports:
 - 160 GB storage
 - 2000 Mbit/s bandwidth
 
+[Issue tracker](https://github.com/GrapheneOS/releases.grapheneos.org/issues)
+
 Domains:
 
 - releases.grapheneos.org
@@ -51,6 +55,8 @@ Ports:
 - 443 https - static
 
 # GrapheneOS time server
+
+[Issue tracker](https://github.com/GrapheneOS/time.grapheneos.org/issues)
 
 - OVH VPS 2018 SSD 1
 - 1 core
@@ -74,6 +80,8 @@ Ports:
 
 # GrapheneOS connectivity check server
 
+[Issue tracker](https://github.com/GrapheneOS/connectivitycheck.grapheneos.org/issues)
+
 - OVH VPS vps2020-starter-1-2-20
 - 1 core
 - 2 GB memory
@@ -95,6 +103,8 @@ Ports:
 - 443 https - no content, returns 204 response code for /generate\_204
 
 # GrapheneOS mail server
+
+[Issue tracker](https://github.com/GrapheneOS/mail.grapheneos.org/issues)
 
 - OVH VPS 2018 SSD 1
 - 1 core
@@ -119,6 +129,8 @@ Ports:
 - 993 imaps - DANE TLSA
 
 # Attestation website and service
+
+[Issue tracker](https://github.com/GrapheneOS/AttestationServer/issues)
 
 - OVH VPS 2018 SSD 1
 - 1 core
