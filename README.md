@@ -24,7 +24,7 @@ Ports:
 
 - 22 ssh - no passwords
 - 80 http - HTTPS redirect only
-- 443 https - static
+- 443 https - static, DANE TLSA
 
 # GrapheneOS release server
 
@@ -52,7 +52,7 @@ Ports:
 
 - 22 ssh - no passwords
 - 80 http - HTTPS redirect only
-- 443 https - static
+- 443 https - static, DANE TLSA
 
 # GrapheneOS time server
 
@@ -154,4 +154,4 @@ Ports:
 
 - 22 ssh - no passwords
 - 80 http - HTTPS redirect only
-- 443 https - static + reverse proxy to attestation service
+- 443 https - static + reverse proxy to attestation service, DANE TLSA
