@@ -1,12 +1,12 @@
 # GrapheneOS website
 
+[Issue tracker](https://github.com/GrapheneOS/grapheneos.org/issues)
+
 - OVH VPS vps2020-value-1-2-40
 - 1 core
 - 2 GB memory
 - 40 GB storage
 - 250 Mbit/s bandwidth
-
-[Issue tracker](https://github.com/GrapheneOS/grapheneos.org/issues)
 
 Domains:
 
@@ -28,13 +28,13 @@ Ports:
 
 # GrapheneOS release server
 
+[Issue tracker](https://github.com/GrapheneOS/releases.grapheneos.org/issues)
+
 - OVH VPS vps2020-elite-8-8-160
 - 8 core
 - 8 GB memory
 - 160 GB storage
 - 2000 Mbit/s bandwidth
-
-[Issue tracker](https://github.com/GrapheneOS/releases.grapheneos.org/issues)
 
 Domains:
 
