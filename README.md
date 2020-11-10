@@ -132,6 +132,34 @@ Ports:
 
 [Issue tracker](https://github.com/GrapheneOS/AttestationServer/issues)
 
+- OVH VPS vps2020-essential-2-4-80
+- 2 core
+- 4 GB memory
+- 80 GB storage
+- 500 Mbit/s bandwidth
+
+Domains:
+
+- attestation.app
+- www.attestation.app
+- attestation.grapheneos.org
+- mta-sts.attestation.app
+
+IPs:
+
+- 51.79.50.249
+- 2607:5300:205:200::86a
+
+Ports:
+
+- 22 ssh - no passwords
+- 80 http - HTTPS redirect only
+- 443 https - static + reverse proxy to attestation service, DANE TLSA
+
+# Staging attestation website and service
+
+[Issue tracker](https://github.com/GrapheneOS/AttestationServer/issues)
+
 - OVH VPS 2018 SSD 1
 - 1 core
 - 2 GB memory
@@ -140,10 +168,7 @@ Ports:
 
 Domains:
 
-- attestation.app
-- www.attestation.app
-- attestation.grapheneos.org
-- mta-sts.attestation.app
+- staging.attestation.app
 
 IPs:
 
