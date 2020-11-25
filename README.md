@@ -100,7 +100,7 @@ IPs:
 Ports:
 
 - 22 ssh - no passwords
-- 443 https - no content, returns 204 response code for /generate\_204
+- 443 https - no content, returns 204 response code for /generate\_204 and /gen\_204
 
 # GrapheneOS mail server
 
