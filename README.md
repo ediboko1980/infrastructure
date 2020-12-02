@@ -22,7 +22,7 @@ IPs:
 
 Ports:
 
-- 22 ssh - no passwords
+- 22 ssh - no passwords, SSHFP
 - 80 http - HTTPS redirect only
 - 443 https - static, DANE TLSA
 
@@ -50,7 +50,7 @@ IPs:
 
 Ports:
 
-- 22 ssh - no passwords
+- 22 ssh - no passwords, SSHFP
 - 80 http - HTTPS redirect only
 - 443 https - static, DANE TLSA
 
@@ -75,7 +75,7 @@ IPs:
 
 Ports:
 
-- 22 ssh - no passwords
+- 22 ssh - no passwords, SSHFP
 - 443 https - no content, returns 204 response code for /, DANE TLSA
 
 # GrapheneOS connectivity check server
@@ -100,7 +100,7 @@ IPs:
 
 Ports:
 
-- 22 ssh - no passwords
+- 22 ssh - no passwords, SSHFP
 - 443 https - no content, returns 204 response code for /generate\_204 and /gen\_204, DANE TLSA
 
 # GrapheneOS mail server
@@ -124,7 +124,7 @@ IPs:
 
 Ports:
 
-- 22 ssh - no passwords
+- 22 ssh - no passwords, SSHFP
 - 25 smtp - DANE TLSA
 - 465 submissions - AUTH only, DANE TLSA
 - 993 imaps - DANE TLSA
@@ -153,7 +153,7 @@ IPs:
 
 Ports:
 
-- 22 ssh - no passwords
+- 22 ssh - no passwords, SSHFP
 - 80 http - HTTPS redirect only
 - 443 https - static + reverse proxy to attestation service, DANE TLSA
 
@@ -178,6 +178,6 @@ IPs:
 
 Ports:
 
-- 22 ssh - no passwords
+- 22 ssh - no passwords, SSHFP
 - 80 http - HTTPS redirect only
 - 443 https - static + reverse proxy to attestation service, DANE TLSA
