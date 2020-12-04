@@ -101,6 +101,7 @@ IPs:
 Ports:
 
 - 22 ssh - no passwords, SSHFP
+- 80 http - no content, returns 204 response code for /generate\_204 and /gen\_204, HTTPS redirect for other URLs
 - 443 https - no content, returns 204 response code for /generate\_204 and /gen\_204, DANE TLSA
 
 # GrapheneOS mail server
