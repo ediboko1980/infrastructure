@@ -12,7 +12,10 @@ Domains:
 
 - grapheneos.org
 - www.grapheneos.org
+- grapheneos.app
+- www.grapheneos.app
 - mta-sts.grapheneos.org
+- mta-sts.grapheneos.app
 - mta-sts.mail.grapheneos.org
 
 IPs:
